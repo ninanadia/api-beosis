@@ -1,0 +1,16 @@
+Tutorial 
+
+1. Membuat Model
+php artisan make:model Article --migration
+
+Kemudian akan ada File baru di migrations
+2022_04_07_032717_create_articles_table
+
+2. Isi dengan parameter tabel seperti id, country, dll
+
+3. Isi juga Models/Article dengan tablenya dan parameter.
+
+4. kemudian di terminal ketik perintah php artisan migrate
+
+5. Atur Route dan Controllernya
+
